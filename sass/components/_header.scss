@@ -1,0 +1,10 @@
+/* header */
+.header {
+
+    border-bottom: 1px solid $border-header-color;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
