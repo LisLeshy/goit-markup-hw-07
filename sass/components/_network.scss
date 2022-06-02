@@ -1,0 +1,37 @@
+/* network */
+.network__text {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $accent-test-color;
+}
+
+.network-list {
+    display: flex;
+}
+
+.network-list__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.network-list__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: $icon-backgroun-color;
+    border-radius: 50%;
+    transition: background-color $transform;
+    &:hover, &:focus {
+        background-color: $accent-color;
+    }
+}
+
+.network-list__icon {
+    fill: $accent-test-color;
+}

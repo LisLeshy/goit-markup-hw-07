@@ -1,0 +1,19 @@
+.adress {
+    margin-top: 20px;
+    margin-right: 70px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.adress__text {
+    color: $accent-test-color;
+}
+
+.adress__link {
+    display: block;
+    margin-top: 9px;
+    color: $adress-color;
+    text-decoration: none;
+}
