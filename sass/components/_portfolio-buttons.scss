@@ -1,40 +1,37 @@
   /* клопки порфолио */
-  .work .button {
-      margin-right: 8px;
-      &:last-child {
-            margin-right: 0px;
-        }
-  }
+ .work .button {
+     margin-right: 8px;
+ }
 
-  .list button {
-      margin-bottom: 50px;
+ .list button {
+     margin-bottom: 50px;
+ }
 
-  }
+ .work .button:last-child {
+     margin-right: 0px;
+ }
 
- 
+ .active-btn {
+     border: none;
+     border-radius: 4px;
+     padding: 6px 22px;
+     background-color: var(--team-backgound-color);
+     color: var(--title-text-color);
+     font-family: inherit;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.62;
+     letter-spacing: 0.03em;
+     cursor: pointer;
+     transition: background-color var(--transform),
+         color var(--transform),
+         box-shadow var(--transform);
 
-  .active-btn {
-      border: none;
-      border-radius: 4px;
-      padding: 6px 22px;
-      background-color: $team-backgound-color;
-      color: $title-text-color;
-      font-family: inherit;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.62;
-      letter-spacing: 0.03em;
-      cursor: pointer;
-      transition: background-color $transform,
-          color $transform,
-          box-shadow $transform;
-        &:hover,
-            &:focus {
-                background-color: var(--accent-color);
-                color: var(--accent-test-color);
-                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            }
+ }
 
-  }
-
-  
+ .active-btn:hover,
+ .active-btn:focus {
+     background-color: var(--accent-color);
+     color: var(--accent-test-color);
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
