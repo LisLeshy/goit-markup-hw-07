@@ -1,62 +1,50 @@
-/* footer form */
-.form {
-    display: block;
-    margin-left: auto;
-}
+ /* footer form */
+ .form {
+     display: block;
+     margin-left: auto;
+ }
 
-.form__text {
-    margin-bottom: 20px;
-    padding-bottom: 0px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: $accent-test-color;
-}
+ .form__text {
+     margin-bottom: 20px;
+     padding-bottom: 0px;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
 
-.form-group {
-    display: flex;
+     color: var(--accent-test-color);
+ }
 
-}
+ .form-group {
+     display: flex;
 
-.form-group__imput {
-    margin-right: 12px;
-    padding: 15px 16px;
-    width: 358px;
-    border: none;
-    font-size: 16px;
-    line-height: 1.25;
-    color: $adress-color;
-    outline: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background-color: $footer-backgound-color;
-}
+ }
 
-.form-group__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 29px;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87px;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    color: $accent-test-color;
-    border: 0;
-    background-color: $accent-color;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    transition: background-color $transform;
-    &:hover, &:focus {
-        background-color: $hero-buton-hover;
-    }
-}
+ .form-group__imput {
+     margin-right: 12px;
+     padding: 15px 16px;
+     width: 358px;
+     border: none;
+     font-size: 16px;
+     line-height: 1.25;
+     color: var(--adress-color);
+     outline: 1px solid rgba(255, 255, 255, 0.3);
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+     border-radius: 4px;
+     background-color: var(--footer-backgound-color);
+ }
 
-.form-group__icon {
-    margin-left: 10px;
-    fill: $accent-test-color;
-}
+ .form-group__btn {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px 29px;
+    
+ }
+
+
+ .form-group__icon {
+     margin-left: 10px;
+     fill: var(--accent-test-color);
+ }

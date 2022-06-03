@@ -1,4 +1,3 @@
-/* лого */
 .logo {
     font-family: Raleway;
     font-weight: 700;
@@ -6,7 +5,7 @@
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: $accent-color;
+    color: var(--accent-color)
 }
 
 
@@ -17,9 +16,10 @@
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: $heder-logo-color;
-
+    color: var(--heder-logo-color);
     &--footer {
-        color: $accent-test-color;
-    }
+            color: var(--accent-test-color);
+        }
 }
+
+

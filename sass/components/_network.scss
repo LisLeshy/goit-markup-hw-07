@@ -7,7 +7,8 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: $accent-test-color;
+
+    color: var(--accent-test-color);
 }
 
 .network-list {
@@ -24,14 +25,16 @@
     align-items: center;
     width: 44px;
     height: 44px;
-    background-color: $icon-backgroun-color;
+    background-color: var(--icon-backgroun-color);
     border-radius: 50%;
-    transition: background-color $transform;
-    &:hover, &:focus {
-        background-color: $accent-color;
-    }
+    transition: background-color var(--transform);
+    &:hover,
+        &:focus {
+            background-color: var(--accent-color);
+        }
+
 }
 
 .network-list__icon {
-    fill: $accent-test-color;
+    fill: var(--accent-test-color);
 }

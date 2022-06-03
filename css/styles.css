@@ -574,7 +574,7 @@ text-decoration: none;
 }
 
 /* Портфолио */
-.work {
+.filter-list__item {
     padding-top: 94px;
     padding-bottom: 94px;  
 }
@@ -590,7 +590,7 @@ text-decoration: none;
 .work .button {
     margin-right: 8px;
 } 
-.list button {
+.filter-list {
 margin-bottom: 50px;
 }
 

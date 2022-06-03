@@ -1,3 +1,4 @@
+/* adress */
 .adress {
     margin-top: 20px;
     margin-right: 70px;
@@ -8,12 +9,12 @@
 }
 
 .adress__text {
-    color: (var--accent-test-color);
+    color: var(--accent-test-color);
 }
 
 .adress__link {
     display: block;
     margin-top: 9px;
-    color: $adress-color;
+    color: var(--adress-color);
     text-decoration: none;
 }

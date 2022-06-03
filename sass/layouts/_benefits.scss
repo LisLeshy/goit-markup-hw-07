@@ -1,3 +1,5 @@
+/* Преимущества */
+
 .benefits {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -10,20 +12,22 @@
 .benefits-article {
     width: 270px;
     margin-right: 30px;
+
     &:last-child {
-        margin-right: 0px;
-    }
+            margin-right: 0px;
+        }
 }
 
 .benefits-article__meta {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
     height: 120px;
     width: 270px;
-    background-color: $team-backgound-color;
+    margin-bottom: 30px;
+    background-color: var(--team-backgound-color);
 }
+
 
 
 .benefits-article__subtitle {
@@ -33,7 +37,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: $title-text-color;
+    color: var(--title-text-color);
 
 }
 
