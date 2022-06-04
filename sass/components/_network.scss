@@ -2,10 +2,7 @@
 .network__text {
     margin-bottom: 20px;
     padding-bottom: 0px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include fonts(700, 14px, 1.14, 0.03em);
     text-transform: uppercase;
 
     color: var(--accent-test-color);

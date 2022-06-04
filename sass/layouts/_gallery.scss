@@ -20,18 +20,15 @@
 
 .gallery-item__text {
     position: absolute;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--accent-test-color);
     right: 0;
     bottom: 0;
     padding-top: 27px;
     padding-bottom: 27px;
     width: 100%;
     height: 70px;
+    @include fonts(700, 14px, 1.14, 0.03em);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--accent-test-color);
     background-color: var(--gallary-background-color);
 }

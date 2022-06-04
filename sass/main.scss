@@ -1,5 +1,6 @@
 @import './utils/variables';
 @import './base/reset';
+@import './utils/mixin';
 @import './base/continer';
 @import './layouts/header';
 @import './components/logo';
@@ -16,6 +17,7 @@
 @import './components/address';
 @import './components/network';
 @import './components/footer-form';
+@import './components/chexbox';
 @import './layouts/modal';
 @import './layouts/portfolio';
 @import './components/portfolio-buttons';

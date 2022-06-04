@@ -62,10 +62,7 @@
     padding-right: 24px;
     padding-bottom: 63px;
     padding-left: 24px;
-
-    font-size: 18px;
-    line-height: 1.56;
-    letter-spacing: 0.03em;
+    @include fonts(null, 18px, 1.56, 0.03em);
     color: var(--accent-test-color);
 }
 
@@ -78,17 +75,13 @@
 
 .work .title {
     margin-bottom: 4px;
+    @include fonts(700, 18px, 2, 0.06em);
     color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+    
 }
 
 .work .text {
-
+    @include fonts(null, 16px, 1.8, 0.03em);
     color: var(--primery-text-color);
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
+    
 }

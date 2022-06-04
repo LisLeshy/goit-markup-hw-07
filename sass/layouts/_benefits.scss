@@ -29,20 +29,14 @@
 }
 
 
-
 .benefits-article__subtitle {
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include fonts(700, 14px, 1.14, 0.03em);
     color: var(--title-text-color);
 
 }
 
 .benefits-article__text {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include fonts(null, 14px, 1.71, 0.03em);
 }
