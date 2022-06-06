@@ -21,20 +21,9 @@
   --card-background-color: rgba(33, 150, 243, 0.9);
   --background-color: rgba(0, 0, 0, 0.2);
   --transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  --font-family-main: Roboto, sans-serif;
+  --font-family-logo: Raleway
+;
 }
 
 .list {
@@ -57,10 +46,24 @@ img {
   height: auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 body {
   background-color: var(--primary-backgound-color);
   color: var(--primery-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: var(--font-family-main);
 }
 
 .container {
@@ -96,7 +99,7 @@ body {
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: var(--font-family-logo);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
