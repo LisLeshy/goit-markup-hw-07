@@ -3,12 +3,14 @@
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--team-backgound-color);
+    display: none;
 }
 
+
 .team__list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     margin-right: auto;
     margin-left: auto;
 }
